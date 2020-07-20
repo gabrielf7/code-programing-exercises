@@ -1,5 +1,5 @@
-# Linguagem C
-## Exercícios feitos para linguagem de programação C 
+# Exercícios em Linguagem de Programação
+Exercícios feitos com intuito de aprendizagem das tecnologias 
 
 ![h-letras](https://github.com/gabrielf7/codigos-em-C-uteis/blob/master/h-letras.gif)
 
