@@ -8,12 +8,10 @@
 
 ### Tecnologias
 
-* Git
-* Python
-* Javascript
-* Linguagem C
-
-![Homem letras](https://github.com/gabrielf7/code-exercises/blob/master/readme-files/h-letras.gif)
+:penguin: Git
+:snake: Python
+:leopard: Javascript
+🎅 Linguagem C
 
 ## License
 
