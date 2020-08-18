@@ -1,5 +1,17 @@
-# Exercícios em Linguagem de Programação
-Exercícios feitos com intuito de aprendizagem das tecnologias 
+###### Exercícios em Linguagem de Programação
+
+<div align="center">
+  <img alt="Homem letras" src="https://github.com/gabrielf7/code-exercises/blob/master/readme-files/h-letras.gif" >
+  
+  <p>Exercícios feitos com intuito de aprendizagem das tecnologias</p>
+</div>
+
+### Tecnologias
+
+* Git
+* Python
+* Javascript
+* Linguagem C
 
 ![Homem letras](https://github.com/gabrielf7/code-exercises/blob/master/readme-files/h-letras.gif)
 
