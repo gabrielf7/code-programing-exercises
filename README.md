@@ -8,7 +8,9 @@
 
 ### Tecnologias
 
-:penguin: Git
+<p>
+  :penguin: Git
+</p>
 :snake: Python
 :leopard: Javascript
 🎅 Linguagem C
