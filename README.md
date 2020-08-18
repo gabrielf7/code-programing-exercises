@@ -11,9 +11,18 @@
 <p>
   :penguin: Git
 </p>
-:snake: Python
-:leopard: Javascript
-🎅 Linguagem C
+
+<p>
+  :snake: Python
+</p>
+
+<p>
+  :leopard: Javascript
+</p>
+
+<p>
+  🎅 Linguagem C
+</p>
 
 ## License
 
