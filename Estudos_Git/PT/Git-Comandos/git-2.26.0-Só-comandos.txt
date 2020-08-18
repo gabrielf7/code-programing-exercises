@@ -1,0 +1,98 @@
+Comandos expecionais do git:
+$ git version
+$ git config --global user.name "Seunome"
+$ git config --global user.email "Seuemail"
+$ clear
+$ git config user.name
+$ git config user.email
+$ git config  core.editor
+$ git config --global core.editor "caminhoDoExecutavelDoEditor"
+$ code 
+$ pwd 
+$ ls
+$ mkdir nomePasta (CRIA UMA PASTA COM UM NOME NELA)
+$ touch seuDoArquivo.txt(ou outroformato)
+$ git init (vira um git MASTER na pasta do projeto selecionado)
+$ git add a.txt(exemplo, isso add um arquivo)
+$ git add * (exemplo, isso add todos arquivos da pasta no container do git)
+$ git log (identificar o commit)
+$ code . (entra com a pasta atual no vsc)
+$ git status (visualizar alguma atualização da pasta do container)
+$ git commit -m "mensagem para documentar" 
+$git add README.md
+$ git log --online
+$ git commit -am "escrever a alteração"
+$ git branch (identificar o ramo que o projeto se encontra)
+$ git checkout hash do commit ("codigo")
+$ git checkout master
+$ git diff (visualizar as mudanças antes do commit)
+$ git remote add origin  https://github.com/USERNAME/NOMDEDOPROJETO.git
+$ git remote (ver a ligação do repositorio)
+$ git remote -v (mais detalhes sobre o link do seu repositorio remoto)
+$ git push -u origin master (ramo principal)
+$ ls -a (exibi pasta oculta, exemplo .git/readme.md)
+$ git push (enviar as alterações para o repositorio externo)
+$ git pull (sicronizar os repositorios externo)
+$ git fetch (comando usado para baixar as alterações que estão no repositorio remoto para analise dos arquivos modificados, parecido com o pull porém não faz a mergi a fusão dos arquivos.) 
+$ rm -rf .git (REMOVER o git da sua pasta projeto todo, aquele que fica oculto na pasta.)
+$ ls -a (exibir pasta oculta)
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+

@@ -1,0 +1,53 @@
+==========================================================
+---------------------------------------------------------------------------------
+$ Como criar um repositório no GITHUB e clonar no Windows
+---------------------------------------------------------------------------------
+- Crie um repositório no Github, com readme.
+
+- Copie o link https no botão de download. 
+
+- Vá na pasta do projeto e entre no terminal do git, botão 
+direito.
+
+- Depois cole o comando junto com o link do clone na mesma 
+linha. (comando: git clone https://github.com/
+NomeDoUsuarioNaContaDoGithub/NomeDoRepositorio.git )
+
+- Faça as alterações na pasta(pode comecçar a codar)
+
+- Depois disso pode ir na pasta onde está o projeto clonado no 
+terminal
+
+- E coloque o comando "git push" no terminal, depois aperte 
+enter 
+
+- Se tiver sendo a primeira vez, faça login no Github Login na tela.
+==========================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

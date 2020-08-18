@@ -1,0 +1,84 @@
+==========================================================
+---------------------------------------------------------------------------------
+$ Submitting a local project to GITHUB
+---------------------------------------------------------------------------------
+- Create a git file with the name '.gitignore' (used to send the
+file without the node_modules folder for github, because the
+folder is large).
+
+- Go to the project folder via the terminal
+
+- Then type the command "git remote"
+(This command checks if there is a remote repository
+
+- Then create a repository on github without adding the readme
+
+- Still in the project folder in the terminal, type the command
+"git remote add origin https://github.com/
+UsernameInGithubAccount / RepositoryName.git ",
+the link in the command being the link in the repository you created
+on github, this command being on the same line.
+
+- See more, type the command "git remote" again, it
+will show the name of the remote repository called origin.
+
+- Show more details of the repository link, type the command
+"git remote -v".
+
+- Now type the command "git push -u origin master" to send
+the project for the remote repository on github.
+
+- If it is your first time, log in to Github Login on the screen.
+==========================================================
+==========================================================
+Direct from Visual Studio Code:
+---------------------------------------------------------------------------------
+$ Submitting a local project to GITHUB
+---------------------------------------------------------------------------------
+- Create a git file with the name '.gitignore' (used to send the
+file without the node_modules folder for github, because the
+folder is large).
+
+- Click on the item with three points like a tree
+
+- Click the button at the start rep
+
+- Then make a commit
+
+- Then Click on the V format button that is the commit
+
+- Ctrl + shift + P and then type Remote
+
+- Click on Git: Add Remote and then enter the name origin and then
+then put the link to the repository created on github with the
+https: // protocol.
+
+- Click on the three dots, and then click on Push.
+==========================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,98 @@
+Exceptional git commands:
+$ git version
+$ git config --global user.name "Yourname"
+$ git config --global user.email "Youremail"
+$ clear
+$ git config user.name
+$ git config user.email
+$ git config  core.editor
+$ git config --global core.editor "Editor-Executable-path"
+$ code 
+$ pwd 
+$ ls
+$ mkdir nameFolder (CREATE A FOLDER WITH A NAME ON IT)
+$ touch yourDoFile.txt(or other format)
+$ git init (make a git MASTER in the selected project folder)
+$ git add a.txt(example, this add a file)
+$ git add * (example, this adds all files in the folder in the git container)
+$ git log (identify the commit)
+$ git status (view any updates to the container folder)
+$ git commit -m "message to document" 
+$ git add README.md
+$ git log --online
+$ git commit -am "write change"
+$ git branch (identify the branch the project is in)
+$ git checkout hash do commit ("code")
+$ git checkout master
+$ git diff (preview changes before committing)
+$ git remote add origin  https://github.com/USERNAME/NAMDEDOPROJECT.git
+$ git remote (see the repository link)
+$ git remote -v (more details about your remote repository link)
+$ git push -u origin master (main branch)
+$ ls -a (show hidden folder, example .git/readme.md)
+$ git push (send changes to the external repository)
+$ git pull (synchronize external repositories)
+$ git fetch (command used to download the changes that are in the remote repository to analyze the modified files, similar to the
+pull however does not merge merging files.) 
+$ rm -rf .git (REMOVE git from your entire project folder, the one that is hidden in the folder.)
+$ ls -a (show hidden folder)
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+

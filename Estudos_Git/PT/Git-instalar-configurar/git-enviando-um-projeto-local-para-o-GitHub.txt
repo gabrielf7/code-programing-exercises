@@ -1,0 +1,84 @@
+==========================================================
+---------------------------------------------------------------------------------
+$ Enviando um projeto local para o GITHUB
+---------------------------------------------------------------------------------
+- Criar arquivo git com o nome '.gitignore' (serve para enviar o 
+arquivo sem a pasta node_modules para o github, porque a 
+pasta é grande).
+
+- Vá na pasta do projeto através do terminal
+
+- Em seguida digite o comando "git remote"
+(Esse comando verifica se existe um repositorio remoto
+
+- Depois crie um repositorio no github sem adicionar o readme
+
+- Ainda na pasta do projeto no terminal digite o comando 
+" git remote add origin https://github.com/
+NomeDoUsuarioNaContaDoGithub/NomeDoRepositorio.git ",
+sendo o link no comando o mesmo do repositorio que você criou
+no github, sendo esse comando na mesma linha.
+
+- Veja mais, digite o comando "git remote" novamente, ele 
+mostrará o nome do repositorio remoto chamado de origin.
+
+- Mostrar mais detalhes do link do repositorio, digite o comando
+"git remote -v".
+
+- Agora digite o comando "git push -u origin master" para enviar 
+o projeto para o repositorio remoto no github.
+
+- Se tiver sendo a primeira vez, faça login no Github Login na tela.
+==========================================================
+==========================================================
+Direto do Visual Studio Code:
+---------------------------------------------------------------------------------
+$ Enviando um projeto local para o GITHUB
+---------------------------------------------------------------------------------
+- Criar arquivo git com o nome '.gitignore' (serve para enviar o 
+arquivo sem a pasta node_modules para o github, porque a 
+pasta é grande).
+
+- Clique no item com tres pontos parecido com uma arvore
+
+- Clique no botão no incialize rep
+
+- Depois faça um commit
+
+- Depois Clique no botão de formato de V que é o commit
+
+- Ctrl+shift+P e depois digite Remote
+
+- Clique no Git: Add Remote e depois insira o nome origin e em 
+seguida ponha o link do repositorio criado no github com o 
+protocolo https://. 
+
+- Clique nos tres pontinhos, e depois clique no Push.
+==========================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
