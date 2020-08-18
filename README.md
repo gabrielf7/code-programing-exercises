@@ -1,6 +1,6 @@
-###### Exercícios em Linguagem de Programação
-
 <div align="center">
+  <h6>Exercícios em Linguagem de Programação</h6>
+  
   <img alt="Homem letras" src="https://github.com/gabrielf7/code-exercises/blob/master/readme-files/h-letras.gif" >
   
   <p>Exercícios feitos com intuito de aprendizagem das tecnologias</p>
