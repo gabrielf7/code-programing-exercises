@@ -2,58 +2,49 @@
 #include <stdlib.h>
 int main(){
 	
-	float num1, num2, num3, maior, segundo, menor, iguais;
+	float numero1, numero2, numero3, maior, meio, menor, iguais;
 	printf("Digite o primeiro valor: \n");
-	scanf("%f", &num1);
+	scanf("%f", &numero1);
 	printf("Digite o segundo valor: \n");
-	scanf("%f", &num2);
+	scanf("%f", &numero2);
 	printf("Digite o terceiro valor: \n");
-	scanf("%f", &num3);
-	if (num1 > num2 > num3 or num1 == num2 > num3 or num1 > num2 == num3){
-	    maior = num1;
-	    segundo = num2;
-	    menor = num3;
-	}else
-		
-	    if (num1 > num2 < num3 or num1 == num2 < num3 or num1 > num2 == num3){
-	        maior = num1;
-	        segundo = num3;
-	        menor = num2;
-	}else
-		
-		if (num2 > num1 > num3 or num2 == num1 > num3 or num2 > num1 == num3){
-		    maior = num2;
-		    segundo = num1;
-		    menor = num3;
-	}else
-		
-	    if (num2 > num1 < num3 or num2 == num1 < num3 or num2 > num1 == num3){
-	        maior = num2;
-	        segundo = num3;
-	        menor = num1;
-	}else
-		
- 		if (num3 > num1 > num2 or num3 == num1 > num2 or num3 > num1 == num2){
-		    maior = num3;
-		    segundo = num1;
-		    menor = num2;
-	}else
-		
-	    if (num3 > num1 < num2 or num3 == num1 < num2 or num3 > num1 == num2){
-	        maior = num3;
-	        segundo = num2;
-	        menor = num1;
+	scanf("%f", &numero3);
+
+	if(((numero1 > numero2) and (numero2 > numero3)) or (numero1 == numero2 > numero3)) {
+		maior = numero1;
+		meio = numero2;
+		menor = numero3;
+	}else if(((numero1 > numero3) and (numero3 > numero2)) or (numero1 == numero3 > numero2)) {
+		maior = numero1;
+		meio = numero3;
+		menor = numero2;
+	}else if(((numero2 > numero1) and (numero1 > numero3)) or (numero2 == numero1 > numero3)) {
+		maior = numero2;
+		meio = numero1;
+		menor = numero3;
+	}else if(((numero2 > numero3) and (numero3 > numero1)) or (numero2 == numero3 > numero1)) {
+		maior = numero2;
+		meio = numero3;
+		menor = numero1;
+	}else if(((numero3 > numero1) and (numero1 > numero2)) or (numero3 == numero1 > numero2)) {
+		maior = numero3;
+		meio = numero1;
+		menor = numero2;
+	}else if(((numero3 > numero1) and (numero2 > numero1)) or (numero3 == numero2 > numero1)) {
+		maior = numero3;
+		meio = numero2;
+		menor = numero1;
 	}
 	
-	if (num1 == num2 == num3)
-	    maior = num1;
-	    iguais = maior;
-	    printf("Iguais: [%f] \n", iguais);
-	    exit(1);
+	if((numero1 == numero2) and (numero1 == numero3)) {
+		maior = numero1;
+		iguais = maior;
+		printf("Iguais: [%f] \n", iguais);
+		exit(1);
+	}
 	    
-	    
-    printf("  Maior: [%f] \n  Segundo: [%f] \n  Menor: [%f] \n", maior, segundo, menor);
+  printf("\n Maior:....[%.2f] \n Meio:.....[%.2f] \n Menor:....[%.2f] \n", maior, meio, menor);
     
-system("PAUSE");
-return(0);
+	system("PAUSE");
+	return(0);
 }
