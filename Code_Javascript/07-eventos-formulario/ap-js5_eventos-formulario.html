@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos - Formulario</title>
+    <script type="text/javascript" src="ap-js5_eventos-formulario.js" ></script>
+    <style>
+      .reset{
+        margin-top: 10px;
+        padding-top: 10px; padding-bottom: 10px; 
+        padding-right: 50px; padding-left: 8px; text-align: left;
+        border: 1px solid rgb(1, 235, 223);
+        font-size: larger; color: tomato;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Eventos - Formulario</h3><br />
+    <!-- 
+      onSubmit="return handleSubmit()"
+    -->
+    <form method="POST" onSubmit="return handleSubmit()">
+      <input type="text" 
+        class="reset"
+        onFocus="focar()"
+        onBlur="foraFoco()"
+        placeholder="Teste formulario" 
+      /><br />
+      <select name="estado" class="reset" onChange="mudarOpcao(this)">
+        <option >Maranhão</option>
+        <option >Bahia</option>
+        <option >Piaui</option>
+        <option >Tocantins</option>
+        <option >Pará</option>
+      </select><br />
+
+      <button class="reset" type="submit">Enviar</button><br />
+    </form>
+    <p id="exiba"></p>
+
+  </body>
+</html>

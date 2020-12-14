@@ -8,7 +8,17 @@
   </head>
   <body>
     <h3>Eventos - Teclado</h3><br />
-    <input type="text" onkeydown="apertarTecla(event)" placeholder="Teste teclado" /><br />
+    <!-- 
+      onKeyDown="apertarTeclaDown(event)"
+      onKeyUp="apertarTeclaUp(event)"
+      onKeyPress="apertarTeclaPress(event)" 
+
+    -->
+    <input type="text" 
+      onKeyUp="apertarTeclaUp(event)"
+      placeholder="Teste teclado" 
+    /><br />
     <p id="exiba"></p>
+
   </body>
 </html>
