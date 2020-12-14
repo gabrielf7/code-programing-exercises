@@ -28,6 +28,6 @@ int main(){
 		}
 	}
 	
-	pausar();;
+	pausar();
 	return (0);
 }

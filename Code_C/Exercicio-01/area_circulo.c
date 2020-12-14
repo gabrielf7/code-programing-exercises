@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void pausar(); {
+void pausar(){
   printf("\nPressione alguma tecla para continuar...");
   getch();
 }
@@ -18,6 +18,6 @@ int main(){
   area = 3.14 * (raio * raio);
   printf("Area: %.2f\n", area);
 
-  pausar();;
+  pausar();
   return (0);
 }

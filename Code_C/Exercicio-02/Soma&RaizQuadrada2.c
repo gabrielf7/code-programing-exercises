@@ -27,6 +27,6 @@ int main(){
 	printf("\nResultado da Soma eh: %f \n", soma);
 	printf("\nResultado da Raiz Quadrada eh: %f \n", raiz);
 
-	pausar();;
+	pausar();
 	return (0);
 }

@@ -21,6 +21,6 @@ int main(){
 			printf("Numero neutro. \n");
 		}
 	}
-	pausar();;
+	pausar();
 	return (0);
 }

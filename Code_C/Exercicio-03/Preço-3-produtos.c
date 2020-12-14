@@ -26,6 +26,6 @@ int main(){
 	}
 	printf("Esse e menor: %f\n", menor);
 
-	pausar();;
+	pausar();
 	return (0);
 }

@@ -44,6 +44,6 @@ int main(){
 	printf("Total de Descontos                                       : R$  %f \n", totaldedescontos);
 	printf("Salario Liquido                                          : R$  %f \n", salario_l);
 
-	pausar();;
+	pausar();
 	return (0);
 }

@@ -17,6 +17,6 @@ int main(){
 		printf("Numero Negativo. \n");
 	}
 	
-	pausar();;
+	pausar();
 	return (0);
 }

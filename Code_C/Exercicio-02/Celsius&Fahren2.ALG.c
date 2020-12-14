@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void pausar(); {
+void pausar(){
   printf("\nPressione alguma tecla para continuar...");
   getch();
 }
@@ -16,6 +16,6 @@ int main(){
 	
 	printf("Resultado em Celsius para Fahrenheit: %f \n", celsius);
 	
-	pausar();;
+	pausar();
 	return(0);
 }

@@ -20,6 +20,6 @@ int main(){
 	}
 	printf("[Esse numero [%d] esta entre Zero e Cem.] \n", nota);
 
-	pausar();;
+	pausar();
 	return (0);
 }

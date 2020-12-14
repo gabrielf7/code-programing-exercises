@@ -26,6 +26,6 @@ int main(){
 		printf("Voce nao foi aprovado na prova da CNH \n");
 	}
 
-	pausar();;
+	pausar();
 	return (0);
 }

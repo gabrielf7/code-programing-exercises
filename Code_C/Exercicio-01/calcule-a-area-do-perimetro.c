@@ -22,6 +22,6 @@ int main(){
 	printf("Resultado da area do retangulo: %f \n", area);
 	printf("Resultado do perimetro do retangulo: %f \n", perimetro);
 
-	pausar();;
+	pausar();
 	return (0);
 }

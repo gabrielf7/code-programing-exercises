@@ -16,7 +16,7 @@ int main(){
 	volume = 4*3.14*(raio*raio*raio)/3;
 	printf("Resultado do Volume da Esfera: %f \n", volume);
 	
-	pausar();;
+	pausar();
 	return(volume);
 }
 	

@@ -33,6 +33,6 @@ int main(){
 		printf("[Alerta: A equacao possui duas raizes reais.]\n");
 	}
 	printf("===================================================================================\n");
-	pausar();;
+	pausar();
 	return (0);
 }

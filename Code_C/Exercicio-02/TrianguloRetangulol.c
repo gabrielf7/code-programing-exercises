@@ -34,6 +34,6 @@ int main(){
 	printf("Resultado do Seno eh: %f \n", seno);
 	printf("Resultado do Cosseno eh: %f \n", cosseno);
 
-	pausar();;
+	pausar();
 	return (0);
 }
