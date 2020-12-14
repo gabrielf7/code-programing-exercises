@@ -1,0 +1,76 @@
+﻿1.Q 
+
+Faça um algoritmo que leia uma matriz 100 x 100 com valores reais. (a) Imprima a soma de todos os elementos das colunas ímpares. (b) Imprima todos os elementos das colunas pares. (c) Imprima a media dos elementos da coluna 10, 20, 30, 40, 50, 60, 70, 80, 90 e linhas 10, 20, 30, 40, 50, 60, 70, 80, 90. Envie um arquivo compactado em formato .zip com o arquivo .c. *
+
+
+
+2.Q
+
+Crie um programa que leia números inteiros em um vetor de tamanho 100. Imprima o endereço de cada posição desse vetor. Logo após calcular a soma de todos os elementos desse vetor usando ponteiros. Envie um arquivo compactado em formato .zip com o arquivo .c. *
+
+
+
+3.Q
+
+Escreva um programa que contenha três variáveis inteiras. Leia essas variáveis do teclado. Compare seus endereços e exiba o maior endereço. Envie um arquivo compactado em formato .zip com o arquivo .c. *
+
+
+
+4.Q
+
+Usando uma struct dentro de uma biblioteca .h, crie um algoritmo de Tabuada pedindo ao usuário a operação e os número 1 e número 2. Enviar o arquivo compactado ".zip" com o arquivo .c e .h. *
+
+
+
+5.Q
+
+Crie um programa que contenha um vetor de inteiros contendo 50 elementos. Imprima o endereço de cada posição desse vetor. Exemplo: "Ponteiro: 1, Valor do Vetor 1." Envie um arquivo compactado em formato .zip com o arquivo .c. *
+
+
+6.Q
+
+Crie um algoritmo que leia 65000 elementos inteiros de um vetor. Mostre ao final todos os elementos, índices do vetor e a posição do ponteiro de cada elemento. Envie um arquivo compactado em formato .zip com o arquivo .c. *
+
+
+
+7.Q
+
+Pegue o mesmo algoritmo da questão de 65000 elementos e com o mesmo algoritmo, implemente a função de salvar todos os elementos, índices de vetor e a posição do ponteiro de cada elemento em um arquivo "questaodoida.txt" dentro do código e envie novamente como se fosse outra questão. Envie um arquivo compactado em formato .zip com o arquivo .c. *
+
+
+
+8.Q
+
+Declare uma matriz 70 x 50. Preencha com 1 a diagonal principal e com 0 os demais elementos. Escreva ao final a matriz obtida. Envie um arquivo compactado em formato .zip com o arquivo .c. *
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+﻿
+
+LISTÃO STRUCT E PONTEIROS
+
+Descrição do Trabalho
+
+1. Escreva um programa que contenha duas variáveis inteiras. Compare seus endereços e exiba o maior endereço.
+
+2. Crie um programa que leia números reais em um vetor de tamanho 10. Imprima o endereço de cada posição desse vetor. 
+
+3. Crie um programa que contenha um vetor de inteiros com tamanho 5. Utilizando apenas ponteiros, leia valores e armazene neste vetor e após isso, imprima o dobro de cada valor lido.
+
+4. Elabore um programa que leia um valor do tipo inteiro e, por meio de função, atualize todas as posições de um vetor com o número inteiro lido, depois imprima os valores. Utilize ponteiros para as operações.
+
+5. Faça um programa que receba dois valores inteiros, após receber esses dois valores, uma função deve calcular e retornar para o programa o resultado da soma e da subtração dos valores. Obs.: Apenas uma função deve realizar esta operação, desta forma, faça uso de ponteiros.
+
+6. Construa uma função que, recebendo como parâmetros quatro números inteiros, devolva ao módulo que o chamou os dois maiores números dentre os quatro recebidos. Faça um programa que leia tantos conjuntos de quatro valores quantos o usuário deseje e que acione a função para cada conjunto de valores, apresentando a cada vez os dois maiores números. Se preferir, utilize vetor para armazenar o conjunto de valores.
+
+7. Considere um vetor de 10 elementos, contendo valores inteiros. Faça um programa que leia os valores para preencher esse vetor, após a leitura o programa deve invocar uma função que calcule e devolva as frequências absoluta e relativa desses valores no conjunto. (Observação: a frequência absoluta de um valor é o número de vezes que esse valor aparece no conjunto de dados; a frequência relativa é a frequência absoluta dividida pelo número total de dados.). Utilize
+
+outros dois vetores para armazenar as frequências relativas e absolutas e ao final do programa, imprima de forma tabulada os números e suas frequências absoluta e relativa.
+
+8. Receber um nome, endereço, número, bairro, cep e referências e imprimir tudo, usando STRUCT
+
+9. Faça o exercício 1, usando STRUCT e VETOR com 10 pessoas e exibir todos de uma vez só.
+
+10. Faça um algoritmo que calcule a soma de dois números em duas STRUCT diferentes.
+
+11. João quer fazer um programa para calcular suas notas nos 4 bimestres de ano, ele disse que teve 4 notas durante o ano inteiro, vamos ajudá-lo? Faça usando STRUCT.
+
+12. Crie um STRUCT que leia vários números e depois imprima todos os números abaixo de 18. 
+(Caso o usuário digitar 0, deve fechar o programa.)
+
+13. Preencha dois STRUCT’s diferentes, cada um com um vetor de 5 posições. Leia os 5 números, e veja se o valor na posição de um conteúdo do vetor é iqual a outra de outro vetor.
+
+14. Criar um STRUCT que retorna o seguinte: Receber 3 valores float e retornar o (x*x)+y+z. Mostre o resultado.
+
+15. A importancia de R$ 780.000,00 será dividida entre três ganhadores de um concurso. Sendo que da quantia total: O primeiro ganhador recebera 46%; O segundo recebera 32%; O terceiro recebera o restante; Calcule e imprima a quantia ganha por cada um dos ganhadores, usando STRUCT para cada ganhador.
+
