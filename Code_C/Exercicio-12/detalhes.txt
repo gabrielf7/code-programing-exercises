@@ -1,6 +1,4 @@
-﻿
-
-LISTÃO STRUCT E PONTEIROS
+﻿LISTÃO STRUCT E PONTEIROS
 
 Descrição do Trabalho
 
