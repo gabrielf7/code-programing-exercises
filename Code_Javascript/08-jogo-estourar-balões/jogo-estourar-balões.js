@@ -1,3 +1,6 @@
+function start(){
+  setInterval(addBola, 2000);
+}
 function addBola(){
   var bola = document.createElement("div");
   bola.setAttribute("class", "bola");
@@ -11,7 +14,4 @@ function addBola(){
 }
 function estourar(objeto){
   document.body.removeChild(objeto);
-}
-function start(){
-  setInterval(addBola, 2000);
 }

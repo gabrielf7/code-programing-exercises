@@ -66,7 +66,7 @@ else:
                                print("|-- Total de cédulas de R$ 10,0:", n10)
                                novoSSTR = str(novoS)
                                ultimo = novoS[1]
-                               if ultimo == 1 or ulimo == 3:
+                               if ultimo == 1 or ultimo == 3:
                                    n5 = n5 - 1
                                    novoS = novoS % 5+5
                                    print("|-- Total de cédulas de R$ 100,0:", n100)
@@ -83,7 +83,7 @@ else:
                                    print("|-- Total de cédulas de R$ 5,0:", n5)
                                    novoSSTR = str(novoS)
                                    ultimo = novoS[1]
-                                   if ultimo == 1 or ulimo == 3:
+                                   if ultimo == 1 or ultimo == 3:
                                        n2 = n2 - 1
                                        novoS = novoS % 2 + 2
                                        print("|-- Total de cédulas de R$ 100,0:", n100)
