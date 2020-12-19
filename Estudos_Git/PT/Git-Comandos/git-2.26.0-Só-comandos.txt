@@ -27,9 +27,14 @@ $ git commit -am "escrever a alteração, mensagem para documentar todos os nív
 $git add README.md
 
 //Voltando no tempo com git
-$ git reset -soft(Ele volta um commit antes, com as alterações, porém sem ainda com um commit)
-$ git reset -mixed(Faz a mesma coisa que o "git reset -soft", com uma resalva, que é preciso digitar ainda o comando "git add" antes)
-$ git reset -hard(Faz a ação de deletar o commit por completo, incluindo o comando "git add" e "git commit -m", após isso volta para o commit anterior)
+$ git reset -soft  codigoDoCommitAnterior(exemplo, execute o comando "git log" e em seguida verifique o codigo do commit)
+(Ele volta um commit antes, com as alterações, porém sem ainda com um commit)
+
+$ git reset -mixed codigoDoCommitAnterior(exemplo, execute o comando "git log" e em seguida verifique o codigo do commit)
+(Faz a mesma coisa que o "git reset -soft", com uma resalva, que é preciso digitar ainda o comando "git add" antes)
+
+$ git reset --hard codigoDoCommitAnterior(exemplo, execute o comando "git log" e em seguida verifique o codigo do commit)
+(Faz a ação de deletar o commit por completo, incluindo o comando "git add" e "git commit -m", após isso volta para o commit anterior)
 
 //Analise de níveis no git
 $ git log --online
