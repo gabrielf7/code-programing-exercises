@@ -27,10 +27,10 @@ $ git commit -am "escrever a alteração, mensagem para documentar todos os nív
 $git add README.md
 
 //Voltando no tempo com git
-$ git reset -soft  codigoDoCommitAnterior(exemplo, execute o comando "git log" e em seguida verifique o codigo do commit)
+$ git reset --soft  codigoDoCommitAnterior(exemplo, execute o comando "git log" e em seguida verifique o codigo do commit)
 (Ele volta um commit antes, com as alterações, porém sem ainda com um commit)
 
-$ git reset -mixed codigoDoCommitAnterior(exemplo, execute o comando "git log" e em seguida verifique o codigo do commit)
+$ git reset --mixed codigoDoCommitAnterior(exemplo, execute o comando "git log" e em seguida verifique o codigo do commit)
 (Faz a mesma coisa que o "git reset -soft", com uma resalva, que é preciso digitar ainda o comando "git add" antes)
 
 $ git reset --hard codigoDoCommitAnterior(exemplo, execute o comando "git log" e em seguida verifique o codigo do commit)
