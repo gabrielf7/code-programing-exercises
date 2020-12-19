@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validão de FORM</title>
+    <script type="text/javascript" src="ap-js7_validao-formulario.js" ></script>
+  </head>
+  <body>
+    <form method="POST" onSubmit="return validarForm()">
+      <h4>Informe 2 algorismos:</h4>
+      <input type="text" id="numero" onChange="validarCampo01()" placeholder="digite um numero" />
+      <p id="aviso" ></p>
+      <input type="text" id="nome" placeholder="Informe seu nome" />
+      <p id="aviso" ></p>
+      <input type="submit" value="Enviar" /><br />
+    </form>
+  </body>
+</html>
