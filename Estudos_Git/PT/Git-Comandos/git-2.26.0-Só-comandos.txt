@@ -38,7 +38,8 @@ $ git reset --hard codigoDoCommitAnterior(exemplo, execute o comando "git log" e
 
 //Analise de níveis no git
 $ git log --online
-$ git branch (identificar o ramo que o projeto se encontra)
+$ git branch nomeDoBranch (Cria um identificador do ramo que o projeto pode se encontra)
+$ git branch (identificar os ramos que o projeto se encontra)
 $ git checkout hash do commit ("codigo")
 $ git checkout master
 $ git diff (visualizar as mudanças antes do commit)
