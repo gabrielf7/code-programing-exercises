@@ -1,4 +1,5 @@
 Comandos expecionais do git:
+//Inicio
 $ git version
 $ git config --global user.name "Seunome"
 $ git config --global user.email "Seuemail"
@@ -7,35 +8,48 @@ $ git config user.name
 $ git config user.email
 $ git config  core.editor
 $ git config --global core.editor "caminhoDoExecutavelDoEditor"
+$ git config --global core.editor "C:\##\##\AppData\Local\Programs\Microsoft VS Code\Code.exe"
 $ code 
+$ code . (entra com a pasta atual no vsc)
 $ pwd 
 $ ls
 $ mkdir nomePasta (CRIA UMA PASTA COM UM NOME NELA)
 $ touch seuDoArquivo.txt(ou outroformato)
+
+//Inicio de criação do git
 $ git init (vira um git MASTER na pasta do projeto selecionado)
 $ git add a.txt(exemplo, isso add um arquivo)
 $ git add * (exemplo, isso add todos arquivos da pasta no container do git)
 $ git log (identificar o commit)
-$ code . (entra com a pasta atual no vsc)
-$ git status (visualizar alguma atualiza��o da pasta do container)
-$ git commit -m "mensagem para documentar" 
+$ git status (visualizar alguma atualização da pasta do container)
+$ git commit -m "mensagem para documentar"
+$ git commit -am "escrever a alteração, mensagem para documentar todos os níveis de alteração, incluindo pastas, alterações em arquivos existente no git e arquivos novos"
 $git add README.md
+
+//Voltando no tempo com git
+$ git reset -soft(Ele volta um commit antes, com as alterações, porém sem ainda com um commit)
+$ git reset -mixed(Faz a mesma coisa que o "git reset -soft", com uma resalva, que é preciso digitar ainda o comando "git add" antes)
+$ git reset -hard(Faz a ação de deletar o commit por completo, incluindo o comando "git add" e "git commit -m", após isso volta para o commit anterior)
+
+//Analise de níveis no git
 $ git log --online
-$ git commit -am "escrever a altera��o"
 $ git branch (identificar o ramo que o projeto se encontra)
 $ git checkout hash do commit ("codigo")
 $ git checkout master
-$ git diff (visualizar as mudan�as antes do commit)
+$ git diff (visualizar as mudanças antes do commit)
+
+//Comandos do git para repositorio remoto
 $ git remote add origin  https://github.com/USERNAME/NOMDEDOPROJETO.git
-$ git remote (ver a liga��o do repositorio)
+$ git remote (ver a ligação do repositorio)
 $ git remote -v (mais detalhes sobre o link do seu repositorio remoto)
 $ git push -u origin master (ramo principal)
-$ ls -a (exibi pasta oculta, exemplo .git/readme.md)
-$ git push (enviar as altera��es para o repositorio externo)
+$ git push (enviar as alterações para o repositorio externo)
 $ git pull (sicronizar os repositorios externo)
-$ git fetch (comando usado para baixar as altera��es que est�o no repositorio remoto para analise dos arquivos modificados, parecido com o pull por�m n�o faz a mergi a fus�o dos arquivos.) 
+$ git fetch (comando usado para baixar as alterações que estão no repositorio remoto para analise dos arquivos modificados, parecido com o pull porém não faz a mergi a fusão dos arquivos.) 
+
+//Comandos para remover ou analisar pastas git.
 $ rm -rf .git (REMOVER o git da sua pasta projeto todo, aquele que fica oculto na pasta.)
-$ ls -a (exibir pasta oculta)
+$ ls -a (exibi pasta oculta, exemplo .git/readme.md)
 $
 $
 $
