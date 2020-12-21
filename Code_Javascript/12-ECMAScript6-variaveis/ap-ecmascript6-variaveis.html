@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Antes do ECMAS6-->
+    <script>
+      var nomeVar = "Pizza"; console.log(nomeVar);
+    </script>
+
+    <!--Depois do ECMAS6-->
+    <script>
+      // Nesse ponto, normal igual o anterior Var
+      let nomeLet = "Pizza"; console.log(nomeLet);
+
+      var lista = [1, 2, 3, 4];
+      //Diferença do let do Var
+      // //Var
+      for(var i in lista){ console.log(lista[i]); }
+      //Situação do exemplo: O "var i" foi usado no escopo do "for", mas por conta do seu tipo de variavel "var" é possível exibir ele depois desse contexto.
+      console.log(i);
+
+      // //Let
+      for(let J in lista){ console.log(lista[J]); }
+      //Situação do exemplo: O "let J" foi usado no escopo do "for", mas por conta do seu tipo de variavel "let" não é possível exibir ele depois desse contexto, porque foi usado apenas na execução do "for", com isso é liberado da memoria após terminar a execução do "for", caso for exibir retonará o erro "Uncaught ReferenceError: J is not defined".
+      //(OBS: Caso o "let J" for definido antes do "for", ele poderá exibir logo após da execução do "for", assemelhando ao tipo de variável "var")
+      console.log(J);
+    </script>
+
+    <script>
+      const nomeConst = "Pizza";
+      // A variável "nomeConst" do tipo de variável "const" foi definida como "Pizza", com isso não é possível alterá-la, por isso se trata de uma constante, ou seja, uma propriedade imutável no javascript.
+      nomeConst = "Pizza de Muçarela";
+      // A ação de atribuir algo para a variável "nomeConst" não é possível, visto que já foi definido anteriormente como "Pizza", isso da pelo fato do tipo de variável "const" atribuído a ela nesse contexto, por conta disso vai gerar o erro "Uncaught TypeError: Assignment to constant variable".
+      console.log(nomeConst);
+    </script>
+  </body>
+</html>
