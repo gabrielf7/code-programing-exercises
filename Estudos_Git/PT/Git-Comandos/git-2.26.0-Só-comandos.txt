@@ -39,7 +39,8 @@ $ git reset --hard codigoDoCommitAnterior(exemplo, execute o comando "git log" e
 //Analise de níveis no git
 $ git log --online
 $ git branch nomeDoBranch (Cria um identificador do ramo que o projeto pode se encontra)
-$ git branch (identificar os ramos que o projeto se encontra)
+$ git branch (identificar o ramo que o projeto se encontra)
+$ git branch -D nomeDoBranch (Comando para apagar uma Branch)
 $ git checkout hash do commit ("codigo")
 $ git checkout master
 $ git diff (visualizar as mudanças antes do commit)
@@ -52,6 +53,9 @@ $ git push -u origin master (ramo principal)
 $ git push (enviar as alterações para o repositorio externo)
 $ git pull (sicronizar os repositorios externo)
 $ git fetch (comando usado para baixar as alterações que estão no repositorio remoto para analise dos arquivos modificados, parecido com o pull porém não faz a mergi a fusão dos arquivos.) 
+$ git push <nome do origin> <nome do branch> --delete (comando que deleta o branch)
+$ git push origin :nome_do_branch
+(Atentando para os : na frente do nome do branch, pois ele quem fará que o branch seja deletado, caso contrário você estaria atualizando o branch remoto.)
 
 //Comandos para remover ou analisar pastas git.
 $ rm -rf .git (REMOVER o git da sua pasta projeto todo, aquele que fica oculto na pasta.)
