@@ -1,5 +1,5 @@
 function requisicao() {
-  const url = 'https://alunos.b7web.com.br/api/ping';
+  const url = 'https://';
   // const params = {
   //   method:'POST',
   //   body: JSON.stringify({
@@ -18,7 +18,7 @@ function requisicao() {
 }
 
 async function requisicaoAsync(){
-  const url = 'https://alunos.b7web.com.br/api/ping';
+  const url = 'https://';
   // const params = {
   //   method:'POST',
   //   body: JSON.stringify({
