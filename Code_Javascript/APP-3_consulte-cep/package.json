@@ -1,0 +1,14 @@
+{
+  "name": "Consulte CEP",
+  "version": "1.0.0",
+  "description": "Aplicação que consulta o CEP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cep-promise": "^4.0.4"
+  }
+}
