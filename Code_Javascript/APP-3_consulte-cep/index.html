@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <title>ConsulteCep</title>
-    <script src="https://cdn.jsdelivr.net/npm/cep-promise/dist/cep-promise.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cep-promise/dist/cep-promise.min.js"></script>
     <!-- <link 
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
@@ -19,9 +19,11 @@
         <p>Consulte seu CEP</p>
       </div>
       <div class="container-top-cep">
-        <label>Informe o CEP</label><br />
-        <input type="text" id="put-1" onClick="clearInput()">
-        <button class="button-top-cep" onClick="fazereq()">Confirmar</button>
+        <label>
+          Informe o CEP
+          <input type="text" id="put-1" onclick="clearInput()" alt="Numero do Cep">
+        </label>
+        <button class="button-top-cep" onclick="fazereq()">Confirmar</button>
       </div>
 
       <div class="campos" >
