@@ -44,6 +44,7 @@ $ git branch -D nomeDoBranch (Comando para apagar uma Branch)
 $ git checkout hash do commit ("codigo")
 $ git checkout master
 $ git diff (visualizar as mudanças antes do commit)
+$ git merge nomeDoBranch (Esse comando atualiza o branch atual do usuário com as informações vinda de outro branch, ou seja, o "nomeDoBranch" indicado no comando referesse ao branch que irá fornecer atualizações ao branch atual, sendo essa ação apenas localmente)
 
 //Comandos do git para repositorio remoto
 $ git remote add origin  https://github.com/USERNAME/NOMDEDOPROJETO.git
