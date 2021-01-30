@@ -57,6 +57,17 @@ $ git fetch (comando usado para baixar as alterações que estão no repositorio
 $ git push <nome do origin> <nome do branch> --delete (comando que deleta o branch)
 $ git push origin :nome_do_branch
 (Atentando para os : na frente do nome do branch, pois ele quem fará que o branch seja deletado, caso contrário você estaria atualizando o branch remoto.)
+$ git remote remove origin (remover a origin)
+$ git remote add origin https://github.com/USERNAME/NOMDEDOPROJETO.git (adicionar uma origin e a url)
+$ git remote rename origin old-origin (renomear o origin)
+$ git remote add origin novaurl (adicionar a nova origin)
+$ git pull origin main --allow-unrelated-histories (
+  Comando que resolver esse problema:
+	  hint: Updates were rejected because the tip of your current branch is behind
+	  hint: its remote counterpart. Integrate the remote changes (e.g.
+	  hint: 'git pull ...') before pushing again.
+	  hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+) 
 
 //Comandos para remover ou analisar pastas git.
 $ rm -rf .git (REMOVER o git da sua pasta projeto todo, aquele que fica oculto na pasta.)
