@@ -67,7 +67,9 @@ $ git pull origin main --allow-unrelated-histories (
 	  hint: its remote counterpart. Integrate the remote changes (e.g.
 	  hint: 'git pull ...') before pushing again.
 	  hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-) 
+)
+$ git fetch --tags -f 
+(No controle remoto, alguém exclui uma tag e cria uma nova com o mesmo nome, então isso acontecerá em seu local)
 
 //Comandos para remover ou analisar pastas git.
 $ rm -rf .git (REMOVER o git da sua pasta projeto todo, aquele que fica oculto na pasta.)
