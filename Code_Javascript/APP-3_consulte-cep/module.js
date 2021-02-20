@@ -1,4 +1,6 @@
-// import cep from 'cep-promise'
+// import cep from 'cep-promise';
 
-// cep('05010000')
-//   .then(console.log)
+// // cep('05010000')
+// //   .then(console.log)
+
+// export const useCep = (event) => cep(event);
