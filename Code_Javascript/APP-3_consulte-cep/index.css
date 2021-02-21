@@ -1,3 +1,4 @@
+/* Adiante: Métodos Padrão */
 body {
   margin: 0; padding: 0;
 }
@@ -7,6 +8,28 @@ textarea:focus, input:focus, select:focus {
   border: 0 none;
   outline: 0;
 }
+
+footer {
+  margin: 10% 1% 0px;
+  text-align: center;
+  font-size: 16px;
+  color: #3e3efb;
+}
+
+footer a {
+  text-decoration: none;
+  color: #3e3efb;
+  background-color: #ffffff;
+  border-bottom: 2px dashed #3e3efb;
+}
+
+@media (max-width: 800px) {
+  footer {
+    margin: 70px 30px 30px;
+  }
+}
+
+/* Adiante: Métodos do Header */
 
 .container-top {
   width: 100%;
@@ -25,8 +48,7 @@ textarea:focus, input:focus, select:focus {
 
 .container-top-cep {
   margin: 0px 35%;
-  max-height: 100px;
-  max-width: 50px 50px;
+  height: 100px;
   padding: 10px;
   background-color: #faff00;
   border: 2px solid #3e3efb;
@@ -88,7 +110,7 @@ textarea:focus, input:focus, select:focus {
 @media (max-width: 800px) { 
   .container-top-cep {
     margin: 0px 10%;
-    max-width: 40px 40px;
+    padding: 40px 40px;
   }
 
   .container-top-cep input:hover{
@@ -97,9 +119,11 @@ textarea:focus, input:focus, select:focus {
 
   #container-top-cep-message {
     margin: 0px 10%;
-    max-width: 10px 10px;
+    padding: 10px 10px;
   }
 }
+
+/* Adiante: Métodos do Main */
 
 .campos {
   margin-top: 10px;
