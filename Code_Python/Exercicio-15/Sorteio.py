@@ -1,33 +1,54 @@
 # 2021
-import random
+from random import choice, randint
 
-lista, validarOpcao, contar, pergunta = [], str(), 0, "start"
+lista = []
+
+def exibir():
+  contSortear, pergunta = 0, str()
+  while(contSortear==1):
+    escolhido = choice(lista)
+    print(' _ '*17)
+    print(f"\n\t\tA opção sorteada: {escolhido}")
+    print(' _ '*17)
+    pergunta = str(input(
+      "\nDeseja sortear novamente? Sim(s) ou Não(0)_/\n_"
+    ))
+    lista.remove(escolhido)
+    if pergunta=="0":
+      contSortear+=1
+      print("\nPrograma encerrado com sucesso...")
+      exit()
+  print('^'*50)
+
+def op1(funcEnumerar):
+  contar, validarOpcao = 0, str()
+  while(contar < funcEnumerar):
+    opcoes = str(input(f"Digite a {contar + 1}° Opção: "))
+    if (opcoes.strip(" ") == validarOpcao):
+      print("\|Essa opção já existe...!\n")
+    else:
+      validarOpcao = opcoes.strip(" ")
+      lista.append(validarOpcao)
+      contar+=1
+  exibir()
+
+def op2(funcEnumerar):
+  contar = 0
+  while(contar < funcEnumerar):
+    lista.append(contar + 1)
+    contar+=1
+  exibir()
 
 print('^'*50)
+print("\t Escolha as opções de Sorteio")
+print("\t 1- Texto\n\t 2- Números")
+escolhaOpcao = int(input("_ "))
 enumerar = int(input("(N° inteiro) Quantidade de opções: "))
 
-while(contar < enumerar):
-  opcoes = str(input(f"Digite a {contar + 1}° Opção: "))
-  if (opcoes.strip(" ") == validarOpcao):
-    print("\|Essa opção já existe...!\n")
-  else:
-    validarOpcao = opcoes.strip(" ")
-    lista.append(validarOpcao)
-    contar+=1
-
-while(contar==2):
-  escolhido = random.choice(lista)
-  print(' _ '*17)
-  print(f"\n\t\tA opção sorteada: {escolhido}")
-  print(' _ '*17)
-  pergunta = str(input(
-    "\nDeseja sortear novamente? Sim(s) ou Não(0)_/\n_"
-  ))
-  if pergunta=="0":
-    contar+=1
-    print("\nPrograma encerrado com sucesso...")
-    exit()
-print('^'*50)
+if(escolhaOpcao==1): 
+  op1(enumerar)
+if(escolhaOpcao==2):
+  op2(enumerar)
 
 # 2020
 # import random
