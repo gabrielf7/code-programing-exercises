@@ -3,24 +3,26 @@ from random import choice, randint
 
 lista = []
 
-def exibir():
-  contSortear, pergunta = 0, str()
-  while(contSortear==1):
+def exibirSorteado():
+  contSortear, pergunta = 2, str()
+  while(contSortear!=1):
     escolhido = choice(lista)
-    print(' _ '*17)
-    print(f"\n\t\tA opção sorteada: {escolhido}")
-    print(' _ '*17)
-    pergunta = str(input(
-      "\nDeseja sortear novamente? Sim(s) ou Não(0)_/\n_"
-    ))
+    contSortear+=1
+    print(' _ '*26)
+    print(f"\n~> {(contSortear + 1) - 3}° Sorteado, ganhou a opção: {escolhido}")
+    print(' _ '*26)
+    if (len(lista) > 1):
+      pergunta = str(input(
+        "\nDeseja sortear novamente? Sim(s) ou Não(n)_/\n_"
+      ))
     lista.remove(escolhido)
-    if pergunta=="0":
+    if (pergunta=="n") or (len(lista) == 0):
       contSortear+=1
       print("\nPrograma encerrado com sucesso...")
       exit()
-  print('^'*50)
+  print('^'*77)
 
-def op1(funcEnumerar):
+def opcao1(funcEnumerar):
   contar, validarOpcao = 0, str()
   while(contar < funcEnumerar):
     opcoes = str(input(f"Digite a {contar + 1}° Opção: "))
@@ -30,25 +32,25 @@ def op1(funcEnumerar):
       validarOpcao = opcoes.strip(" ")
       lista.append(validarOpcao)
       contar+=1
-  exibir()
+  exibirSorteado()
 
-def op2(funcEnumerar):
+def opcao2(funcEnumerar):
   contar = 0
   while(contar < funcEnumerar):
     lista.append(contar + 1)
     contar+=1
-  exibir()
+  exibirSorteado()
 
-print('^'*50)
-print("\t Escolha as opções de Sorteio")
-print("\t 1- Texto\n\t 2- Números")
+print('^'*77)
+print(f"{' '*17}Sorteio do Piton\n\n{' '*10}Escolha as opções de Sorteio")
+print(f"{' '*10}~> 1- Texto / ~> 2- Números")
 escolhaOpcao = int(input("_ "))
-enumerar = int(input("(N° inteiro) Quantidade de opções: "))
+enumerar = int(input("Quantidade de alternativa (valor limite do sorteio):\n_ "))
 
 if(escolhaOpcao==1): 
-  op1(enumerar)
+  opcao1(enumerar)
 if(escolhaOpcao==2):
-  op2(enumerar)
+  opcao2(enumerar)
 
 # 2020
 # import random
