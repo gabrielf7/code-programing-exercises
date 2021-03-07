@@ -1,3 +1,8 @@
+function data_e_horario_hj() {
+  let dataHj = new Date();
+  return dataHj;
+}
+
 function meuRelogio(){
   // Style em JS
   document.body.style.color = "white";
@@ -19,18 +24,16 @@ function meuRelogio(){
   ];
   // // const mes = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro","Outubro", "Novembro", "Dezembro"];
   const opcoes = { year: 'numeric', month: 'long', day: 'numeric' }; // // weekday: 'long',
-  const dataHj = new Date();
-  let infodata = (op) => { return dataHj.toLocaleDateString("pt-br", op) };
+  let infodata = (op) => { return data_e_horario_hj().toLocaleDateString("pt-br", op) };
   document.getElementById("nomeDoHorario").innerHTML = `Horário de Brasília`;
   document.getElementById("dataHJ").innerHTML = `
-    ${semana[dataHj.getDay()]}, ${infodata(opcoes)}
+    ${semana[data_e_horario_hj().getDay()]}, ${infodata(opcoes)}
   `;
 
   setInterval(function(){
-    let horarioDeHoje = new Date();
     document.getElementById("exibaHorarioTitle").innerHTML = `
-    Horário BR - ${horarioDeHoje.toLocaleTimeString()}
+    Horário BR - ${data_e_horario_hj().toLocaleTimeString()}
     `;
-    document.getElementById("exibaHorario").innerHTML = `${horarioDeHoje.toLocaleTimeString()}`;
+    document.getElementById("exibaHorario").innerHTML = `${data_e_horario_hj().toLocaleTimeString()}`;
   }, 1000);
 }
