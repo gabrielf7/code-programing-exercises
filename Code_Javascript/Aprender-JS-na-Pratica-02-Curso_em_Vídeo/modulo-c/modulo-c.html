@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo C</title>
+  </head>
+
+  <body>
+    <h1>Olá, começando com o DOM</h1>
+    <p id="resultado">Resultado da pesquisa.</p>
+    <p>Estou a estudar o Document Object Model (DOM)</p>
+    <iframe scrolling="no" src="//openspeedtest.com/Get-widget.php" frameborder="0"></iframe>
+    <script>
+      let nometag = window.document.getElementsByTagName('p');
+      window.document.write(`<p>Estudar: ${nometag[1].innerText} </p><br />`);
+      let corpo = window.document.getElementById("resultado");
+
+      nometag[2].setAttribute('style', 
+        'background: black; color: white'
+      );
+
+      // window.document.write("Olá mundo!" + "<br />");
+      // window.document.write(window.document.charset  + "<br />");
+      // window.document.write(window.document.characterSet  + "<br />");
+      // window.document.write(window.navigator.appName  + "<br />");
+      // window.document.write(window.navigator.appVersion  + "<br />");
+      // window.document.write(window.navigator.appCodeName  + "<br />");
+      // window.document.write(window.document.URL  + "<br />");
+    </script>
+  </body>
+
+</html>

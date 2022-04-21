@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos do DOM</title>
+    <style>
+      #area {
+        background-color: rgb(42, 139, 42);
+        font: normal 20pt Arial;
+        color: white;
+        width: 250px;
+        height: 200px;
+        line-height: 200px;
+        text-align: center; 
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="area">
+      Eventos
+    </div>
+
+    <script>
+      function PegarReferencia() {
+        return window.document.getElementById("area"); 
+      }
+      
+      //Ações
+      function Entrar() {
+        PegarReferencia().innerText = "Entrou";
+      }
+      function Saiu() {
+        PegarReferencia().innerText = "Saiu";
+        PegarReferencia().style.background = "green";
+      }
+      function Clicou() {
+        PegarReferencia().innerText = "Clicou";
+        PegarReferencia().style.background = "red";
+      }
+      
+      // Lista de Eventos
+      PegarReferencia().addEventListener("mouseenter", Entrar);
+      PegarReferencia().addEventListener("mouseout", Saiu);
+      PegarReferencia().addEventListener("click", Clicou);
+      </script>
+  </body>
+
+</html>

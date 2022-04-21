@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo D</title>
+  </head>
+
+  <body>
+    <!-- Velocidade do Carro -->
+    <div id="area">
+      <h3>Sistema de Trânsito</h3>
+      Velocidade do carro <input type="number" name="velocidadeCarro" id="velocidadeCarro"> km/h
+      <input type="button" name="VerificarVelocidadeCarro" value="Verificar" onclick="VerificarVelocidadeCarro()">
+      <div class="mensagem"></div>
+    </div>
+
+    <!-- País de origem -->
+    <div class="pais" style="margin-top: 50px;">
+      <h2>Imigração do Brasil</h2>
+      Qual seu país de origem: <input type="text" name="paisOrigem" id="paisOrigem">
+      <input type="button" name="verificarBrasileiro" value="Verificar" onclick="verificarBrasileiro()">
+      <div class="mensagemPais"></div>
+    </div>
+    
+    <script>
+      function VerificarVelocidadeCarro() {
+        let velocidadeCarro = document.querySelector("input#velocidadeCarro");
+        console.log(parseInt(velocidadeCarro.value));
+        let mensagem = document.querySelector("div.mensagem");
+        let resultado = parseInt(velocidadeCarro.value) > 60 ? "Multado." : "Dirija com cuidado.";
+        return mensagem.innerHTML = `<p>Resultado da verificação: <strong>${resultado}</strong></p>`;
+      }
+      function verificarBrasileiro() {
+        let resultado;
+        let paisOrigem = document.querySelector("input#paisOrigem");
+        console.log(parseInt(paisOrigem.value));
+        let mensagem = document.querySelector("div.mensagemPais");
+        if ((paisOrigem.value === "Brasil") || (paisOrigem.value === "brasil")) { 
+          resultado = "Brasileiro";
+        } else { 
+          resultado = "Estrangeiro";
+        }
+        return mensagem.innerHTML = `<p>Você é um <strong>${resultado}</strong></p>`;
+      }
+    </script>
+  </body>
+
+</html>

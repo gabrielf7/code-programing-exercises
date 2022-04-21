@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - Praticar</title>
+    <style>
+      body {
+        background-color: rgb(105, 105, 173);
+        color: #fff;
+        font-size: 3rem;
+      }
+      h1 {
+        color:rgb(251, 255, 41);
+        margin-bottom: 0px;
+      }
+      p {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Olá Mundo!</h1>
+    <p>Veja como aprender javascript de forma simples.</p>
+    <p id="mensagem" ></p>
+<iframe scrolling="no" src="//openspeedtest.com/Get-widget.php" frameborder="0"></iframe>
+    <script>
+      let nome = window.prompt("Nome: ");
+      let numero1 = Number.parseFloat(window.prompt("Salario: "));
+      let numero2 = Number.parseFloat(window.prompt("Comissao: "));
+      let results = numero1 + numero2;
+      let mensagem = document.getElementById("mensagem");
+      mensagem.innerHTML = `
+        Nome: ${nome.toUpperCase()} <br/>
+        Salario: R$ ${numero1.toFixed(2)} <br/>
+        Comissão: R$ ${numero2.toFixed(2)} <br/>
+        Salario + Comissão: ${
+          results.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+        }
+        
+      `;
+      
+    </script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somar Calculos</title>
+    <style>
+      body {
+        font: normal 18pt Arial;
+      }
+      input {
+        font: normal 15pt Arial;
+        width: 150px;
+      }
+      div#resultadoSoma {
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Vamos Calcular</h1>
+    </header>
+    <main>
+      <input type="number" name="text1" id="text1"> +
+      <input type="number" name="text2" id="text2">
+      <input type="button" value="Somar" onclick="somar()">
+      <p id="resultadoSoma">Resultado</p>
+    </main>
+    <script>
+      function somar() {
+        let par1 = window.document.getElementById("text1");
+        let par2 = window.document.getElementById("text2");
+        let resultado = Number.parseFloat(par1.value) + Number.parseFloat(par2.value);
+        let mensagem = window.document.getElementById("resultadoSoma").innerHTML = `
+          A soma de ${par1.value} mais ${par2.value} é ${resultado}
+        `;
+        return mensagem;
+      }
+    </script>
+  </body>
+
+</html>
